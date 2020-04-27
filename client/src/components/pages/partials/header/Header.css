@@ -1,0 +1,46 @@
+.Header{
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: orange;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.Logo{
+    border: 1px solid green;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+.Logo a{
+    color: black;
+}
+
+.NavLinks{
+    border: 1px solid green;
+    /* flex: 1; */
+    width: 60%;
+}
+.NavLinks a{
+    color: black;
+    padding: 10px 15px;
+    border: 1px solid red;
+    display: inline-block;
+    /* line-height: 100%; */
+    /* width: 10%; */
+    text-align: center;
+    margin-right: 30px;
+    font-size: 1rem;
+    /* letter-spacing: ; */
+}
+
+/* // */
+
+.ActiveLinks{
+    color: white;
+    font-weight: bolder;
+}
